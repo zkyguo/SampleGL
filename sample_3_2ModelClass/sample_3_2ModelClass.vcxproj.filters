@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\glad\src\glad.c" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\shader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\shader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\lightShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{fbe4ce6b-8da3-416c-9539-896e06a6eddb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
